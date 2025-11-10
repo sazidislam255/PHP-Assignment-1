@@ -22,7 +22,7 @@
   }
    
   // (6) error handling 
-  function division($a,$b):float{
+  function division($a,$b){
     try{
         if($b==0){
             throw new Exception ("Division by zero not possible");
@@ -40,3 +40,4 @@
   }
 
 ?>
+
