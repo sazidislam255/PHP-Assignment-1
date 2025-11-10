@@ -42,7 +42,7 @@
    }
 
    // (7) Total Expense Function
-   function total_expense($x,$y,$z){
+   function total_expense($x,$y,$z): int{
       return $x +$y +$z;
    }
    echo total_expense($food, $transport, $other_expenses)."\n";
@@ -52,6 +52,7 @@
    function budget_check($total){
     echo($total>1000) ? "Budget Exceeded" : "Within Budget";
    }
+
 
 
 
